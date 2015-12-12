@@ -1,0 +1,18 @@
+.social {
+  margin: 40px auto 30px;
+  padding-left: $content-body-padding;
+  padding-right: $content-body-padding;
+
+  min-height: 190px;
+
+  ul.buttons {
+    list-style-type: none;
+    width: 238px;
+    margin: 24px auto;
+
+    li {
+      float: left;
+      margin: 0 8px;
+    }
+  }
+}
