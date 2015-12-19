@@ -54,7 +54,6 @@ html lang="ja"
                   = tag
           hr.article-header-separator
         = yield
-        - unless current_article.nil?
-          = partial "partials/social"
+        = partial "partials/social"
     footer
       = partial "partials/footer"
